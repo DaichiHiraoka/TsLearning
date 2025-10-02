@@ -17,6 +17,14 @@ export const test =() =>{
     const value: string | number | null = 'Hello World'; //union
     console.log(name);
 
+    const reverseArray = (arr: string[], hasTom?: boolean): string[] => {
+        if(hasTom){
+            arr.unshift('tom');
+        }
+        return arr.reverse();
+    }
+    console.log(reverseArray(hobbies,true));*/
+
     
 }
 
